@@ -1,0 +1,44 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#075985"/>
+      <stop offset="0.52" stop-color="#0E7490"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#042F2E" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="360" rx="34" fill="url(#bg)"/>
+  <circle cx="1120" cy="52" r="170" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="110" cy="306" r="210" fill="#FFFFFF" fill-opacity="0.07"/>
+  <path d="M0 276C170 214 311 318 474 266C657 208 785 186 937 236C1082 284 1174 254 1280 205V360H0V276Z" fill="#ECFEFF" fill-opacity="0.16"/>
+  <g filter="url(#shadow)">
+    <rect x="760" y="70" width="360" height="220" rx="24" fill="url(#card)" stroke="#CFFAFE" stroke-opacity="0.42"/>
+    <rect x="804" y="112" width="96" height="20" rx="10" fill="#ECFEFF" fill-opacity="0.72"/>
+    <rect x="804" y="154" width="260" height="14" rx="7" fill="#ECFEFF" fill-opacity="0.46"/>
+    <rect x="804" y="186" width="214" height="14" rx="7" fill="#ECFEFF" fill-opacity="0.36"/>
+    <rect x="804" y="222" width="120" height="34" rx="17" fill="#A7F3D0" fill-opacity="0.75"/>
+    <rect x="944" y="222" width="120" height="34" rx="17" fill="#BAE6FD" fill-opacity="0.75"/>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="112" y="76" width="108" height="108" rx="28" fill="#F0FDFA" fill-opacity="0.95"/>
+    <path d="M142 132h48M142 154h48M142 110h32" stroke="#0E7490" stroke-width="10" stroke-linecap="round"/>
+    <path d="M196 96l18 18-48 48-22 5 5-22 47-49z" fill="#14B8A6"/>
+  </g>
+  <text x="250" y="128" fill="#ECFEFF" font-size="54" font-family="Microsoft YaHei, Segoe UI, Arial" font-weight="800">实验智评</text>
+  <text x="250" y="178" fill="#CFFAFE" font-size="28" font-family="Microsoft YaHei, Segoe UI, Arial" font-weight="600">面向高校课程实验报告的智能评阅系统</text>
+  <text x="250" y="235" fill="#F0FDFA" font-size="22" font-family="Microsoft YaHei, Segoe UI, Arial">批量导入 · 报告解析 · 脱敏处理 · AI 建议分 · 教师复核 · 成绩分析</text>
+  <g>
+    <rect x="250" y="260" width="154" height="38" rx="19" fill="#ECFEFF" fill-opacity="0.95"/>
+    <text x="278" y="286" fill="#075985" font-size="18" font-family="Microsoft YaHei, Segoe UI, Arial" font-weight="700">本地运行</text>
+    <rect x="424" y="260" width="184" height="38" rx="19" fill="#ECFEFF" fill-opacity="0.95"/>
+    <text x="451" y="286" fill="#075985" font-size="18" font-family="Microsoft YaHei, Segoe UI, Arial" font-weight="700">Kimi K2.6 API</text>
+    <rect x="628" y="260" width="178" height="38" rx="19" fill="#ECFEFF" fill-opacity="0.95"/>
+    <text x="656" y="286" fill="#075985" font-size="18" font-family="Microsoft YaHei, Segoe UI, Arial" font-weight="700">教师确认分</text>
+  </g>
+</svg>

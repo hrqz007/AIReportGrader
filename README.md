@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/Vue-3-42b883?style=for-the-badge&logo=vue.js&logoColor=white" alt="Vue" />
   <img src="https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/SQLite-Local_DB-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/License-MIT-0f766e?style=for-the-badge" alt="MIT License" />
 </p>
 
 <p align="center">
@@ -176,6 +177,21 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\start.ps1
 
 ---
 
+## 开源协议
+
+本项目采用 **MIT License** 开源。你可以在遵守协议的前提下自由使用、复制、修改、分发和二次开发本系统，适合高校教师、课程团队和教学研究场景进行本地化改造。
+
+需要注意：
+
+- 本仓库源码不包含任何 API Key、学生数据、报告文件或真实教学数据。
+- 便携版中包含的第三方运行环境和依赖库仍遵循各自原始许可证。
+- AI 模型服务由使用者自行配置，模型 API 的使用需遵守对应服务商条款。
+- AI 初评结果仅作为教学辅助建议，最终成绩应由教师复核确认。
+
+完整协议内容见仓库中的 [`LICENSE`](LICENSE) 文件。
+
+---
+
 ## 适用场景
 
 本系统适用于计算机、数据科学、工程技术及其他包含实验报告评价环节的高校课程。特别适合需要批量批改实验报告、保留评分依据、进行分项反馈和班级共性问题分析的教学场景。
@@ -185,4 +201,3 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\start.ps1
 ## 免责声明
 
 实验智评是面向教学辅助的本地工具。AI 初评结果可能受模型能力、报告质量、评分标准清晰度和截图可读性影响。请教师结合课程要求、报告原文和教学经验进行复核，最终成绩以教师确认分为准。
-

@@ -55,6 +55,7 @@
           </template>
           <el-menu-item index="/ai-config">AI 配置</el-menu-item>
           <el-menu-item index="/system-data">系统数据管理</el-menu-item>
+          <el-menu-item index="/about">关于实验智评</el-menu-item>
         </el-sub-menu>
       </el-menu>
 

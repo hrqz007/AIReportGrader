@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const AIConfigView = () => import('@/views/AIConfigView.vue')
+const AboutView = () => import('@/views/AboutView.vue')
 const AIScoringView = () => import('@/views/AIScoringView.vue')
 const ArchiveView = () => import('@/views/ArchiveView.vue')
 const ClassesView = () => import('@/views/ClassesView.vue')
@@ -96,6 +97,11 @@ const router = createRouter({
       path: '/system-data',
       component: SystemDataView,
       meta: { title: '系统数据管理', description: '备份、恢复和清理本地数据库、上传文件与导出文件' }
+    },
+    {
+      path: '/about',
+      component: AboutView,
+      meta: { title: '关于实验智评', description: '查看系统版本、作者团队、开源协议和使用边界说明' }
     },
     {
       path: '/:pathMatch(.*)*',
